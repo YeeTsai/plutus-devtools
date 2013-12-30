@@ -1,0 +1,218 @@
+  private void onFrontConnected();
+    Signature: ()V
+
+  private void onFrontDisconnected(int);
+    Signature: (I)V
+
+  private void onHeartBeatWarning(int);
+    Signature: (I)V
+
+  private void onRspAuthenticate(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspUserLogin(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspUserLogout(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspUserPasswordUpdate(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspTradingAccountPasswordUpdate(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspOrderInsert(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspParkedOrderInsert(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspParkedOrderAction(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspOrderAction(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQueryMaxOrderVolume(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspSettlementInfoConfirm(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspRemoveParkedOrder(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspRemoveParkedOrderAction(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryOrder(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryTrade(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryInvestorPosition(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryTradingAccount(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryInvestor(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryTradingCode(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryInstrumentMarginRate(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryInstrumentCommissionRate(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryExchange(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryInstrument(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryDepthMarketData(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQrySettlementInfo(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryTransferBank(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryInvestorPositionDetail(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryNotice(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQrySettlementInfoConfirm(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryInvestorPositionCombineDetail(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryCFMMCTradingAccountKey(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryEWarrantOffset(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryTransferSerial(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryAccountregister(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspError(byte[], int, boolean);
+    Signature: ([BIZ)V
+
+  private void onRtnOrder(byte[]);
+    Signature: ([B)V
+
+  private void onRtnTrade(byte[]);
+    Signature: ([B)V
+
+  private void onErrRtnOrderInsert(byte[], byte[]);
+    Signature: ([B[B)V
+
+  private void onErrRtnOrderAction(byte[], byte[]);
+    Signature: ([B[B)V
+
+  private void onRtnInstrumentStatus(byte[]);
+    Signature: ([B)V
+
+  private void onRtnTradingNotice(byte[]);
+    Signature: ([B)V
+
+  private void onRtnErrorConditionalOrder(byte[]);
+    Signature: ([B)V
+
+  private void onRspQryContractBank(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryParkedOrder(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryParkedOrderAction(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryTradingNotice(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryBrokerTradingParams(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQryBrokerTradingAlgos(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRtnFromBankToFutureByBank(byte[]);
+    Signature: ([B)V
+
+  private void onRtnFromFutureToBankByBank(byte[]);
+    Signature: ([B)V
+
+  private void onRtnRepealFromBankToFutureByBank(byte[]);
+    Signature: ([B)V
+
+  private void onRtnRepealFromFutureToBankByBank(byte[]);
+    Signature: ([B)V
+
+  private void onRtnFromBankToFutureByFuture(byte[]);
+    Signature: ([B)V
+
+  private void onRtnFromFutureToBankByFuture(byte[]);
+    Signature: ([B)V
+
+  private void onRtnRepealFromBankToFutureByFutureManual(byte[]);
+    Signature: ([B)V
+
+  private void onRtnRepealFromFutureToBankByFutureManual(byte[]);
+    Signature: ([B)V
+
+  private void onRtnQueryBankBalanceByFuture(byte[]);
+    Signature: ([B)V
+
+  private void onErrRtnBankToFutureByFuture(byte[], byte[]);
+    Signature: ([B[B)V
+
+  private void onErrRtnFutureToBankByFuture(byte[], byte[]);
+    Signature: ([B[B)V
+
+  private void onErrRtnRepealBankToFutureByFutureManual(byte[], byte[]);
+    Signature: ([B[B)V
+
+  private void onErrRtnRepealFutureToBankByFutureManual(byte[], byte[]);
+    Signature: ([B[B)V
+
+  private void onErrRtnQueryBankBalanceByFuture(byte[], byte[]);
+    Signature: ([B[B)V
+
+  private void onRtnRepealFromBankToFutureByFuture(byte[]);
+    Signature: ([B)V
+
+  private void onRtnRepealFromFutureToBankByFuture(byte[]);
+    Signature: ([B)V
+
+  private void onRspFromBankToFutureByFuture(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspFromFutureToBankByFuture(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRspQueryBankAccountMoneyByFuture(byte[], byte[], int, boolean);
+    Signature: ([B[BIZ)V
+
+  private void onRtnOpenAccountByBank(byte[]);
+    Signature: ([B)V
+
+  private void onRtnCancelAccountByBank(byte[]);
+    Signature: ([B)V
+
+  private void onRtnChangeAccountByBank(byte[]);
+    Signature: ([B)V
