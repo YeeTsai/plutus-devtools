@@ -28,6 +28,22 @@ local.properties
 # PDT-specific
 .buildpath
 
+####################
+## Intellij Idea
+####################
+.idea/
+*.ipr
+*.iml
+
+###################
+## subversion
+###################
+.svn/
+
+###################
+## gradle
+##################
+.gradle/
 
 #################
 ## Visual Studio

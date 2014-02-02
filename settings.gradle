@@ -1,0 +1,1 @@
+include 'common', 'dev-toolkit', 'property-wrapper-generator'

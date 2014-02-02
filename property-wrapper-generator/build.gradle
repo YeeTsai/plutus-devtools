@@ -1,0 +1,12 @@
+apply plugin: 'application'
+
+dependencies {
+    compile project (':common')
+}
+
+dependencies {
+    compile "commons-cli:commons-cli:1.2",
+            "commons-lang3:commons-lang3:3.2.1",
+            "commons-beanutils:commons-beanutils:1.9.1",
+            "cglib-nodep:cglib-nodep:3.1"
+}
